@@ -1,0 +1,13 @@
+.app-root {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+	height: 3rem;
+}
+
+.read-the-docs {
+	color: #9ca3af;
+}
+
