@@ -40,7 +40,7 @@ export default function Dashboard() {
           setTemperature(data.temperature ?? "-");
           setHumidity(data.humidity ?? "-");
           setPower(data.power ?? "-");
-          setSetpoint(data.SET ?? "-");
+          setSetpoint(data.set ?? "-");
 
           if (data.rotate_on !== undefined) {
             setRotateOn(secondsToHMS(data.rotate_on));
@@ -80,7 +80,7 @@ export default function Dashboard() {
       temperature: data.temperature ?? null,
       humidity: data.humidity ?? null,
       power: data.power ?? null,
-      setpoint: data.SET ?? null,
+      setpoint: data.set ?? null,
       rotate_on: data.rotate_on ?? null
     };
 
